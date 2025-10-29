@@ -1,0 +1,20 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+
+int main() {
+    long long t, a, b;
+    cin >> t;
+    for (int i = 0; i < t; i++) {
+        cin >> a >> b;
+        if(a % b == 0) {
+            cout << 0;
+        } else {
+            cout << abs((a%b) - b);
+        }
+        cout << "\n";
+        
+    }
+    
+    
+}
